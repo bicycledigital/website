@@ -1,32 +1,39 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+import ReactDOM from "react-dom";
 import Image from "next/image";
-import HeroImage from "../public/images/hero.jpg";
+import BikeGif from "../public/images/BikeGif.gif";
 
-function heroPage() {
+
+
+function heroPage() { 
+  
+
   return (
-    <div className="min-w-7xl mx-0 md:mx-20">
+    <div className="bg-transparent pt-40 min-w-7xl mx-0 md:mx-20">   
       <div className=" flex md:flex-row flex-col justify-between items-center my-10">
         <div className="flex-col px-10 ">
-          <h1 className="text-6xl text-violet-500 font-bold">
-            We are the{" "}
-            <span className="text-violet-900">complete solution </span> for your{" "}
-            <span className="text-violet-900 border-b border-blue-200">
-              brand
-            </span>
-          </h1>
-          <p className="text-2xl text-gray-400 mt-5 mb-10">
-            We build beautiful and scalable web and mobile applications.
+          <h1 className="text-6xl font-heading text-zinc-800 font-bold">
+Propelling the brands you love         </h1>
+          <p className="text-2xl text-zinc-800  mb-10 pt-3">
+          Let us help you exlplore, plan, and drive your next project
           </p>
-          <button className="border-2 border-blue-500 text-violet-400 hover:bg-violet-500 hover:shadow-lg px-8 h-14 rounded-md hover:text-white ">
-            See Our Work
+          <a href="/about">
+          <button className="transition-shadow duration-300 text-xl ease-in-out text-gray-dark shadow-clay-btn hover:shadow-clay-btn-two px-8 h-14 rounded-md">
+             Speak with us today
           </button>
+          </a>
         </div>
-        <div className="px-10">
-          <Image src={HeroImage} width={900} height={900} objectFit="contain" />
-        </div>
+        
       </div>
+      <div className="mix-blend-darken px-10 motion-safe:animate-fadeIn"
+     
+      >
+          <Image src={BikeGif} width={900} height={500} objectFit="contain"/>
+        </div>
     </div>
   );
 }
+
+
 
 export default heroPage;

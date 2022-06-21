@@ -7,6 +7,8 @@ import News from "./news";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
+
+
 export default function Home() {
   return (
     <div>
@@ -17,7 +19,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroPage />
-      <Clients />
+    
       <Services />
       <News />
       <Contact />

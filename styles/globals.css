@@ -1,3 +1,18 @@
+@import url('https://use.typekit.net/cbm7mzt.css');
+
+@font-face {
+    font-family: questa-grande, serif;
+    src: url('https://use.typekit.net/cbm7mzt.css');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    html {
+        
+        background: #d4d4d8;
+    }
+}
