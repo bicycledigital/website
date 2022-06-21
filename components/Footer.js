@@ -15,7 +15,7 @@ function Footer() {
       <div className="p-5 ">
           <ul>
             <p className="text-gray-400 font-bold text-3xl pb-6">
-            <Image src={WhiteBike} width={100} height={100} objectFit="contain" />
+            <Image alt='Logo' src={WhiteBike} width={100} height={100} objectFit="contain" />
             </p>
             </ul>
             </div>

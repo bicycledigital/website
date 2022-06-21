@@ -28,7 +28,7 @@ Propelling the brands you love         </h1>
       <div className="mix-blend-darken px-10 motion-safe:animate-fadeIn"
      
       >
-          <Image src={BikeGif} width={900} height={500} objectFit="contain"/>
+          <Image alt='Riding a Bike' src={BikeGif} width={900} height={500} objectFit="contain"/>
         </div>
     </div>
   );

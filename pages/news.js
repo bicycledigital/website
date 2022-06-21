@@ -10,7 +10,7 @@ function news() {
       
       <h1 className="relative  text-center font-heading text-5xl">
       <div className="pointer-events-none">
-        <Image src={BlackOutline} width={200} height={200} className="bottom-0 w-full h-full" objectFit="contain" />
+        <Image alt='Heading' src={BlackOutline} width={200} height={200} className="bottom-0 w-full h-full" objectFit="contain" />
       </div>
        <div className="absolute w-screen  bottom-20 text-center leading-start">Opportunities</div> 
       </h1>

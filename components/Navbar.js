@@ -36,7 +36,7 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-shrink flex">
-              <Image src={BlackBike} width={100} height={100} objectFit="contain" />
+              <Image alt='logo' src={BlackBike} width={100} height={100} objectFit="contain" />
                   
                 </div>
                

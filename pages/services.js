@@ -19,7 +19,7 @@ function services() {
     <div className="pt-20 flex-col justify-center items-center my-20">
        <h1 className="relative  text-center font-heading text-5xl">
       <div className="pointer-events-none">
-        <Image src={BlackOutline} width={200} height={100} className="bottom-0 w-full h-full" objectFit="contain" />
+        <Image alt='Heading' src={BlackOutline} width={200} height={100} className="bottom-0 w-full h-full" objectFit="contain" />
       </div>
        <div className="absolute w-screen  bottom-8 text-center leading-start">Our Services</div> 
       </h1>
