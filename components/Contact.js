@@ -22,7 +22,7 @@ function Contact() {
       </p>
       <div className="flex justify-center items-center translate-y-36 pt-5 gap-10">
         <div className="group md:w-72 w-80 h-12 rounded-md my-0  cursor-pointer flex justify-center items-center  transition-shadow duration-300 ease-in-out shadow-clay-btn hover:shadow-clay-btn-two ">
-          <Link href="mailto:hello@bicycle.digital">
+          <Link href="mailto:hello@bicycle.digital" passHref>
             <h1 className="text-gray-dark  text-xl">
             Speak with us today
             </h1>

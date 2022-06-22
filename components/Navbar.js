@@ -37,7 +37,7 @@ export default function Navbar() {
                     <div className="block font-regular text-xl mb-2  h-5 w-14" aria-hidden="true" > menu </div>
                   )}
                 </Disclosure.Button> */}
-                <Link href="mailto:hello@bicycle.digital">
+                <Link href="mailto:hello@bicycle.digital" passHref>
           <button className="transition-shadow duration-300 text-md ease-in-out text-gray-dark shadow-clay-btn hover:shadow-clay-btn-two px-4 h-10 rounded-md">
           Reach Out
 
