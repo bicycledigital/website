@@ -16,7 +16,7 @@ import { IoExtensionPuzzleOutline } from "react-icons/io";
 
 function services() {
   return (
-    <div className="pt-20 flex-col justify-center items-center my-20">
+    <div className="pt-0  flex-col justify-center items-center my-20">
        <h1 className="relative  text-center font-heading text-5xl">
       <div className="pointer-events-none">
         <Image alt='Heading' src={BlackOutline} width={200} height={100} className="bottom-0 w-full h-full" objectFit="contain" />
@@ -53,7 +53,7 @@ function services() {
           <div className="group flex-col  justify-center items-center   rounded-md p-8 ">
             <TbPuzzle className="text-4xl text-gray-800 " />
             <h1 className="text-xl text-gray-800 font-semibold  my-2">
-              Project Auditing & Innovation
+              Ideation & Innovation
             </h1>
           </div>
           <div className="group flex-col  justify-center items-center   rounded-md p-8 ">

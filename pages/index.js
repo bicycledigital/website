@@ -19,9 +19,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroPage />
-    
-      <Services />
       <News />
+      <Services />
+      
       <Contact />
       <Footer />
     </div>

@@ -3,6 +3,9 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon,  } from "@heroicons/react/outline";
 import Image from "next/image";
 import BlackBike from "../public/images/BlackBike.png";
+import { InlineWidget } from "react-calendly";
+
+import Link from "next/link";
 
 const navigation = [
   { name: "Dashboard", href: "#", current: true, selected: false },
@@ -26,14 +29,20 @@ export default function Navbar() {
               <div className="flex-1 flex justify-between sm:items-stretch   ">
               <div className="flex-shrink inset-y-0 left-0  flex items-center ">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-dark  hover:transition-shadow  duration-1000 ease-in-out hover:shadow-clay-btn-two">
+                {/* <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-dark  hover:transition-shadow  duration-1000 ease-in-out hover:shadow-clay-btn-two">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-14" aria-hidden="true" />
                   ) : (
                     <div className="block font-regular text-xl mb-2  h-5 w-14" aria-hidden="true" > menu </div>
                   )}
-                </Disclosure.Button>
+                </Disclosure.Button> */}
+                <Link href="mailto:hello@bicycle.digital">
+          <button className="transition-shadow duration-300 text-md ease-in-out text-gray-dark shadow-clay-btn hover:shadow-clay-btn-two px-4 h-10 rounded-md">
+          Reach Out
+
+          </button>
+          </Link>
               </div>
               <div className="flex-shrink flex">
               <Image alt='logo' src={BlackBike} width={100} height={100} objectFit="contain" />
@@ -55,6 +64,7 @@ export default function Navbar() {
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
+                        
                       </a>
                     ))}
                   </div>
