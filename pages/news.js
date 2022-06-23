@@ -7,7 +7,7 @@ import { InlineWidget } from "react-calendly";
 
 function news() {
   return (
-    <div className="flex-col justify-center items-center pt-0 my-0">
+    <div className="justify-center items-center pt-36 my-0">
       
       <h1 className="relative  text-center font-heading text-5xl">
       <div className="pointer-events-none">
@@ -15,37 +15,41 @@ function news() {
       </div>
        <div className="absolute w-screen  bottom-20 text-center leading-start">Have a Project?</div> 
       </h1>
-      <div className="flex justify-center items-center">
+      <div className=" justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2  gap-5 mx-10">
-        <div className="flex-row justify-center items-center  rounded-md p-8 ">
+        <div className="flex-row justify-center items-center  rounded-md p-0 ">
            
-           <h1 className="text-xl text-center text-gray-800 font-semibold  my-2">
-             Capture your goldfish. <br/> <br/>
+           <h1 className="text-2xl text-center text-gray-800 font-semibold  my-2">
+            Our Philosophy <br/> <br/>
            </h1>
            <div className="text-xl  text-gray-800   my-2">
-           Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+            We don't sell ads, we sell feelings <br /> <br /> 
+            Here at Bicycle, we understand the power of a brand. Most buisiness owners do too. 
+            So if this is the case, why do so many companies overlook their own brand? Simple, brands are  easily overlooked, even though they live in every fiber of your company. This means without a holistic branding strategy, all other marketing efforts will be less effective. 
 <br /><br />
-“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+With expertise in brand design and digital marketing, we help forward-thinking companies find their ideal customers, tell their stories, and deliver superior results.
+           We look into the future with curiosity and excitement, if your company shares this feeling, we would love to work together.
           </div>
-          <h1 className="text-xl text-center text-gray-800 font-semibold  my-2">
-          <br /><br />Capture your goldfish. <br/> <br/>
+          <h1 className="text-2xl text-center text-gray-800 font-semibold  my-2">
+          <br />Get Into Gear<br/> <br/>
            </h1>
            <div className="text-xl  text-gray-800   my-2">
-           Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
-
+           If your marketers haven't updated your branding in 5 years, 10 years, or 15 years, its time to make the jump. At Bicycle, we stay current with the industry standards. This ensures that you will look and feel like a best-in-class company for years to come.  
+           <br/> 
+           <h1 className="text-xl text-gray-800 font-semibold  my-2">Schedule a 30 minute Brand Audit and let's talk. We will outline your current branding strategy and pin point any opportunities we see.
+</h1>
           </div>
          </div>
            
-          <div className="flex-row justify-center items-center border  hover:shadow-lg  border-violet-100 rounded-md p-8 ">
+          <div className="">
            
-            <h1 className="text-xl text-center text-gray-800 font-semibold  my-2">
+            {/* <h1 className="text-xl text-center   text-gray-800 font-semibold  my-2">
               Free 30 minute Discovery Call
-            </h1>
+            </h1> */}
             <div className="mix-blend-multiply">
-           <div>
-             <InlineWidget className=" rounded-full" url="https://calendly.com/bicycledigital/30min" />
-           </div>
+           <div classname='row-span-3 w-320px h-1000px'>             <InlineWidget styles={{height:'1000px'}} url="https://calendly.com/bicycledigital/30min" className="absolutev overflow-visible h-min-1000px " />
+</div>
+           
            </div>
           </div>
          

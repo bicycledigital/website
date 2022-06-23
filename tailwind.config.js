@@ -8,6 +8,13 @@ module.exports = {
       animation: {
         fadeIn: "fadeIn 2s ease-in forwards"
       },
+      width: {
+        '320px': '320px'
+      },
+      height: {
+        '700px': '700px',
+        '1000px': '1000px'
+      },
       keyframes: {
         fadeIn: {
           "0%": { opacity: 0 },

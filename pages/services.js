@@ -16,7 +16,7 @@ import { IoExtensionPuzzleOutline } from "react-icons/io";
 
 function services() {
   return (
-    <div className="pt-0  flex-col justify-center items-center my-20">
+    <div className="pt-36 flex-col justify-center items-center ">
        <h1 className="relative  text-center font-heading text-5xl">
       <div className="pointer-events-none">
         <Image alt='Heading' src={BlackOutline} width={200} height={100} className="bottom-0 w-full h-full" objectFit="contain" />

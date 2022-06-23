@@ -10,18 +10,18 @@ import WhiteBike from "../public/images/WhiteBike.png";
 function Footer() {
   return (
     <>
-      <div className="bg-gray-800 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-10">
+      <div className="bg-gray-800 h-1/2 w-full flex-row  justify-around items-start p-10">
       
 
-      <div className="p-5 ">
+      {/* <div className="p-5 ">
           <ul>
             <p className="text-gray-400 font-bold text-3xl pb-6">
             <Image alt='Logo' src={WhiteBike} width={100} height={100} objectFit="contain" />
 
             </p>
             </ul>
-            </div>
-       {/*} <div className="p-5 ">
+            </div> */}
+        <div className="p-5 ">
           <ul>
             <p className="text-gray-400 font-bold text-3xl pb-6">
             <Image src={WhiteBike} width={100} height={100} objectFit="contain" />
@@ -41,7 +41,7 @@ function Footer() {
               </a> 
             </div>
           </ul>
-        </div>
+        </div>{/*}
         <div className="p-5">
           <ul>
             <p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
