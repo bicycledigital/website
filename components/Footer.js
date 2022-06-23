@@ -33,7 +33,7 @@ function Footer() {
               <a href="https://www.twitter.com/bicycledigital" target='blank'>
                 <FaTwitter className="text-2xl cursor-pointer text-gray-500 hover:text-violet-600" />
               </a>
-              <a href="https://www.linkedin.com/bicycledigital" target='blank'>
+              <a href="https://www.linkedin.com/company/bicycledigital" target='blank'>
                 <FaLinkedin className="text-2xl cursor-pointer text-gray-500 hover:text-violet-600" />
               </a>
                {/* <a href="https://www.instagram.com/novavez" target='blank'>
