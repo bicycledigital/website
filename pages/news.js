@@ -47,7 +47,7 @@ With expertise in brand design and digital marketing, we help forward-thinking c
               Free 30 minute Discovery Call
             </h1> */}
             <div className="mix-blend-multiply">
-           <div classname='row-span-3 w-320px h-1000px'>             <InlineWidget styles={{height:'1000px'}} url="https://calendly.com/bicycledigital/30min" className="absolutev overflow-visible h-min-1000px " />
+           <div>             <InlineWidget styles={{height:'1000px'}} url="https://calendly.com/bicycledigital/30min" className="absolutev overflow-visible h-min-1000px " />
 </div>
            
            </div>
